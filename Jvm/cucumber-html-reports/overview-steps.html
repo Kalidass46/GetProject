@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>Adactin Hotel</td>
+      <td>09 Oct 2024, 16:48</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">HotelDefin.to_Click_The_Login_button_in_this_page()</td>
+              <td>1</td>
+              <td class="duration" data-value="2015024601">2.015</td>
+              <td class="duration" data-value="2015024601">2.015</td>
+              <td class="duration" data-value="2015024601">2.015</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">HotelDefin.to_Enter_the_username_in_username_field()</td>
+              <td>1</td>
+              <td class="duration" data-value="1868850399">1.868</td>
+              <td class="duration" data-value="1868850399">1.868</td>
+              <td class="duration" data-value="1868850399">1.868</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">HotelDefin.to_Select_the_location()</td>
+              <td>1</td>
+              <td class="duration" data-value="1264135599">1.264</td>
+              <td class="duration" data-value="1264135599">1.264</td>
+              <td class="duration" data-value="1264135599">1.264</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">HotelDefin.to_click_Logout_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="134799">0.000</td>
+              <td class="duration" data-value="134799">0.000</td>
+              <td class="duration" data-value="134799">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">HotelDefin.to_click_the_Continue_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="2133451300">2.133</td>
+              <td class="duration" data-value="2133451300">2.133</td>
+              <td class="duration" data-value="2133451300">2.133</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">HotelDefin.to_click_the_Search_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="843358300">0.843</td>
+              <td class="duration" data-value="843358300">0.843</td>
+              <td class="duration" data-value="843358300">0.843</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">HotelDefin.to_click_the_book_now_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="216963301">0.216</td>
+              <td class="duration" data-value="216963301">0.216</td>
+              <td class="duration" data-value="216963301">0.216</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">HotelDefin.to_click_the_cancel()</td>
+              <td>1</td>
+              <td class="duration" data-value="130301">0.000</td>
+              <td class="duration" data-value="130301">0.000</td>
+              <td class="duration" data-value="130301">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">HotelDefin.to_click_the_my_iteranary_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="113562500">0.113</td>
+              <td class="duration" data-value="113562500">0.113</td>
+              <td class="duration" data-value="113562500">0.113</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">HotelDefin.to_close_The_Browser()</td>
+              <td>1</td>
+              <td class="duration" data-value="517688400">0.517</td>
+              <td class="duration" data-value="517688400">0.517</td>
+              <td class="duration" data-value="517688400">0.517</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">HotelDefin.to_enter_ccv_number()</td>
+              <td>1</td>
+              <td class="duration" data-value="202178200">0.202</td>
+              <td class="duration" data-value="202178200">0.202</td>
+              <td class="duration" data-value="202178200">0.202</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">HotelDefin.to_enter_credit_card_number()</td>
+              <td>1</td>
+              <td class="duration" data-value="406432000">0.406</td>
+              <td class="duration" data-value="406432000">0.406</td>
+              <td class="duration" data-value="406432000">0.406</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">HotelDefin.to_enter_the_Password_in_pswd_field()</td>
+              <td>1</td>
+              <td class="duration" data-value="291017400">0.291</td>
+              <td class="duration" data-value="291017400">0.291</td>
+              <td class="duration" data-value="291017400">0.291</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">HotelDefin.to_enter_the_first_name()</td>
+              <td>1</td>
+              <td class="duration" data-value="589019401">0.589</td>
+              <td class="duration" data-value="589019401">0.589</td>
+              <td class="duration" data-value="589019401">0.589</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">HotelDefin.to_enter_the_iling_address()</td>
+              <td>1</td>
+              <td class="duration" data-value="341930999">0.341</td>
+              <td class="duration" data-value="341930999">0.341</td>
+              <td class="duration" data-value="341930999">0.341</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">HotelDefin.to_enter_the_last_name()</td>
+              <td>1</td>
+              <td class="duration" data-value="182070800">0.182</td>
+              <td class="duration" data-value="182070800">0.182</td>
+              <td class="duration" data-value="182070800">0.182</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">HotelDefin.to_launch_Chorome_Browser_hit_the_url()</td>
+              <td>1</td>
+              <td class="duration" data-value="47583612601">47.583</td>
+              <td class="duration" data-value="47583612601">47.583</td>
+              <td class="duration" data-value="47583612601">47.583</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">HotelDefin.to_select_Credit_card_type()</td>
+              <td>1</td>
+              <td class="duration" data-value="464486499">0.464</td>
+              <td class="duration" data-value="464486499">0.464</td>
+              <td class="duration" data-value="464486499">0.464</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">HotelDefin.to_select_checkin_Date()</td>
+              <td>1</td>
+              <td class="duration" data-value="3523201">0.003</td>
+              <td class="duration" data-value="3523201">0.003</td>
+              <td class="duration" data-value="3523201">0.003</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">HotelDefin.to_select_expiry_date_month_and_year()</td>
+              <td>1</td>
+              <td class="duration" data-value="800518000">0.800</td>
+              <td class="duration" data-value="800518000">0.800</td>
+              <td class="duration" data-value="800518000">0.800</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">HotelDefin.to_select_the_adult_per_room()</td>
+              <td>1</td>
+              <td class="duration" data-value="369805900">0.369</td>
+              <td class="duration" data-value="369805900">0.369</td>
+              <td class="duration" data-value="369805900">0.369</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">HotelDefin.to_select_the_checkout_date()</td>
+              <td>1</td>
+              <td class="duration" data-value="277900">0.000</td>
+              <td class="duration" data-value="277900">0.000</td>
+              <td class="duration" data-value="277900">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">HotelDefin.to_select_the_hotels()</td>
+              <td>1</td>
+              <td class="duration" data-value="514873900">0.514</td>
+              <td class="duration" data-value="514873900">0.514</td>
+              <td class="duration" data-value="514873900">0.514</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">HotelDefin.to_select_the_number_of_rooms()</td>
+              <td>1</td>
+              <td class="duration" data-value="475607499">0.475</td>
+              <td class="duration" data-value="475607499">0.475</td>
+              <td class="duration" data-value="475607499">0.475</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">HotelDefin.to_select_the_one_cancelled_oreder()</td>
+              <td>1</td>
+              <td class="duration" data-value="390699">0.000</td>
+              <td class="duration" data-value="390699">0.000</td>
+              <td class="duration" data-value="390699">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">HotelDefin.to_select_the_radio_button_for_select()</td>
+              <td>1</td>
+              <td class="duration" data-value="183786100">0.183</td>
+              <td class="duration" data-value="183786100">0.183</td>
+              <td class="duration" data-value="183786100">0.183</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">HotelDefin.to_select_the_room_type()</td>
+              <td>1</td>
+              <td class="duration" data-value="580226700">0.580</td>
+              <td class="duration" data-value="580226700">0.580</td>
+              <td class="duration" data-value="580226700">0.580</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>27</td>
+            <td>27</td>
+            <td class="duration">2.294</td>
+            <td class="duration">47.583</td>
+            <td class="duration">1:1.963</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

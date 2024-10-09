@@ -12,9 +12,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d129.0.6668.70)\nBuild info: version: \u00274.24.0\u0027, revision: \u0027748ffc9bc3\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.3\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2f0666aaa3e6097cb616063a5a8d87b3, get {url\u003dhttps://adactinhotelapp.com/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50041/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 2f0666aaa3e6097cb616063a5a8d87b3\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)\r\n\tat org.helper.Helper.browserLaunch(Helper.java:34)\r\n\tat org.stepDefinition.HotelDefin.to_launch_Chorome_Browser_hit_the_url(HotelDefin.java:31)\r\n\tat ✽.To launch Chorome Browser \u0026 hit the url(src/test/resources/Feature/adactinHotel.feature:7)\r\n",
-              "duration": 60783264000,
-              "status": "failed"
+              "duration": 47583612601,
+              "status": "passed"
             },
             "line": 7,
             "name": "To launch Chorome Browser \u0026 hit the url",
@@ -25,8 +24,8 @@
           },
           {
             "result": {
-              "duration": 38900,
-              "status": "skipped"
+              "duration": 1868850399,
+              "status": "passed"
             },
             "line": 9,
             "name": "To Enter the username in username field",
@@ -37,8 +36,8 @@
           },
           {
             "result": {
-              "duration": 17700,
-              "status": "skipped"
+              "duration": 291017400,
+              "status": "passed"
             },
             "line": 11,
             "name": "To enter the Password in pswd field",
@@ -49,8 +48,8 @@
           },
           {
             "result": {
-              "duration": 9600,
-              "status": "skipped"
+              "duration": 2015024601,
+              "status": "passed"
             },
             "line": 13,
             "name": "To Click The Login button in this page",
@@ -79,9 +78,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d129.0.6668.70)\nBuild info: version: \u00274.24.0\u0027, revision: \u0027748ffc9bc3\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.3\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2f0666aaa3e6097cb616063a5a8d87b3, findElement {value\u003dlocation, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50041/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 2f0666aaa3e6097cb616063a5a8d87b3\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)\r\n\tat org.helper.Helper.btnClick(Helper.java:61)\r\n\tat org.stepDefinition.HotelDefin.to_Select_the_location(HotelDefin.java:56)\r\n\tat ✽.To Select the location(src/test/resources/Feature/adactinHotel.feature:18)\r\n",
-              "duration": 457053500,
-              "status": "failed"
+              "duration": 1264135599,
+              "status": "passed"
             },
             "line": 18,
             "name": "To Select the location",
@@ -92,8 +90,8 @@
           },
           {
             "result": {
-              "duration": 15200,
-              "status": "skipped"
+              "duration": 514873900,
+              "status": "passed"
             },
             "line": 20,
             "name": "To select the hotels",
@@ -104,8 +102,8 @@
           },
           {
             "result": {
-              "duration": 10300,
-              "status": "skipped"
+              "duration": 580226700,
+              "status": "passed"
             },
             "line": 22,
             "name": "To select the room type",
@@ -116,8 +114,8 @@
           },
           {
             "result": {
-              "duration": 9000,
-              "status": "skipped"
+              "duration": 475607499,
+              "status": "passed"
             },
             "line": 24,
             "name": "To select the number of rooms",
@@ -128,8 +126,8 @@
           },
           {
             "result": {
-              "duration": 9200,
-              "status": "skipped"
+              "duration": 3523201,
+              "status": "passed"
             },
             "line": 26,
             "name": "To select checkin Date",
@@ -140,8 +138,8 @@
           },
           {
             "result": {
-              "duration": 9900,
-              "status": "skipped"
+              "duration": 277900,
+              "status": "passed"
             },
             "line": 28,
             "name": "To select the checkout date",
@@ -152,8 +150,8 @@
           },
           {
             "result": {
-              "duration": 8900,
-              "status": "skipped"
+              "duration": 369805900,
+              "status": "passed"
             },
             "line": 30,
             "name": "To select the adult per room",
@@ -164,8 +162,8 @@
           },
           {
             "result": {
-              "duration": 9000,
-              "status": "skipped"
+              "duration": 843358300,
+              "status": "passed"
             },
             "line": 32,
             "name": "To click the Search button",
@@ -194,9 +192,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d129.0.6668.70)\nBuild info: version: \u00274.24.0\u0027, revision: \u0027748ffc9bc3\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.3\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2f0666aaa3e6097cb616063a5a8d87b3, findElement {value\u003d//input[@type\u003d\u0027radio\u0027], using\u003dxpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50041/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 2f0666aaa3e6097cb616063a5a8d87b3\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)\r\n\tat org.helper.Helper.btnClick(Helper.java:61)\r\n\tat org.stepDefinition.HotelDefin.to_select_the_radio_button_for_select(HotelDefin.java:121)\r\n\tat ✽.To select the radio button for select(src/test/resources/Feature/adactinHotel.feature:37)\r\n",
-              "duration": 136150800,
-              "status": "failed"
+              "duration": 183786100,
+              "status": "passed"
             },
             "line": 37,
             "name": "To select the radio button for select",
@@ -207,8 +204,8 @@
           },
           {
             "result": {
-              "duration": 25400,
-              "status": "skipped"
+              "duration": 2133451300,
+              "status": "passed"
             },
             "line": 39,
             "name": "To click the Continue button",
@@ -237,9 +234,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d129.0.6668.70)\nBuild info: version: \u00274.24.0\u0027, revision: \u0027748ffc9bc3\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.3\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2f0666aaa3e6097cb616063a5a8d87b3, findElement {value\u003dfirst_name, using\u003did}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50041/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 2f0666aaa3e6097cb616063a5a8d87b3\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)\r\n\tat org.helper.Helper.fillText(Helper.java:57)\r\n\tat org.stepDefinition.HotelDefin.to_enter_the_first_name(HotelDefin.java:133)\r\n\tat ✽.To enter the first name(src/test/resources/Feature/adactinHotel.feature:44)\r\n",
-              "duration": 96813900,
-              "status": "failed"
+              "duration": 589019401,
+              "status": "passed"
             },
             "line": 44,
             "name": "To enter the first name",
@@ -250,8 +246,8 @@
           },
           {
             "result": {
-              "duration": 13900,
-              "status": "skipped"
+              "duration": 182070800,
+              "status": "passed"
             },
             "line": 46,
             "name": "To enter the last name",
@@ -262,8 +258,8 @@
           },
           {
             "result": {
-              "duration": 10200,
-              "status": "skipped"
+              "duration": 341930999,
+              "status": "passed"
             },
             "line": 48,
             "name": "To enter the biling address",
@@ -274,8 +270,8 @@
           },
           {
             "result": {
-              "duration": 105300,
-              "status": "skipped"
+              "duration": 406432000,
+              "status": "passed"
             },
             "line": 50,
             "name": "To enter credit card number",
@@ -286,8 +282,8 @@
           },
           {
             "result": {
-              "duration": 11500,
-              "status": "skipped"
+              "duration": 464486499,
+              "status": "passed"
             },
             "line": 52,
             "name": "To select Credit card type",
@@ -298,8 +294,8 @@
           },
           {
             "result": {
-              "duration": 9400,
-              "status": "skipped"
+              "duration": 800518000,
+              "status": "passed"
             },
             "line": 54,
             "name": "To select expiry date month and year",
@@ -310,8 +306,8 @@
           },
           {
             "result": {
-              "duration": 9700,
-              "status": "skipped"
+              "duration": 202178200,
+              "status": "passed"
             },
             "line": 56,
             "name": "To enter ccv number",
@@ -322,8 +318,8 @@
           },
           {
             "result": {
-              "duration": 10000,
-              "status": "skipped"
+              "duration": 216963301,
+              "status": "passed"
             },
             "line": 58,
             "name": "To click the book now button",
@@ -352,8 +348,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d129.0.6668.70)\nBuild info: version: \u00274.24.0\u0027, revision: \u0027748ffc9bc3\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.3\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2f0666aaa3e6097cb616063a5a8d87b3, findElement {value\u003d//input[@value\u003d\u0027My Itinerary\u0027], using\u003dxpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50041/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 2f0666aaa3e6097cb616063a5a8d87b3\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)\r\n\tat org.helper.Helper.btnClick(Helper.java:61)\r\n\tat org.stepDefinition.HotelDefin.to_click_the_my_iteranary_button(HotelDefin.java:200)\r\n\tat ✽.To click the my iteranary button(src/test/resources/Feature/adactinHotel.feature:64)\r\n",
-              "duration": 182561300,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@value\u003d\u0027My Itinerary\u0027]\"}\n  (Session info: chrome\u003d129.0.6668.90)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.24.0\u0027, revision: \u0027748ffc9bc3\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.3\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [5d61a55eb454f23c7efc3fa4f18c78fe, findElement {using\u003dxpath, value\u003d//input[@value\u003d\u0027My Itinerary\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.91 (b00bc8b76d60..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53972}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53972/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 5d61a55eb454f23c7efc3fa4f18c78fe\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)\r\n\tat org.helper.Helper.btnClick(Helper.java:66)\r\n\tat org.stepDefinition.HotelDefin.to_click_the_my_iteranary_button(HotelDefin.java:199)\r\n\tat ✽.To click the my iteranary button(src/test/resources/Feature/adactinHotel.feature:64)\r\n",
+              "duration": 113562500,
               "status": "failed"
             },
             "line": 64,
@@ -383,7 +379,7 @@
         "steps": [
           {
             "result": {
-              "duration": 419700,
+              "duration": 390699,
               "status": "passed"
             },
             "line": 69,
@@ -395,7 +391,7 @@
           },
           {
             "result": {
-              "duration": 454700,
+              "duration": 130301,
               "status": "passed"
             },
             "line": 71,
@@ -407,7 +403,7 @@
           },
           {
             "result": {
-              "duration": 348200,
+              "duration": 134799,
               "status": "passed"
             },
             "line": 73,
@@ -419,9 +415,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome\u003d129.0.6668.70)\nBuild info: version: \u00274.24.0\u0027, revision: \u0027748ffc9bc3\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.3\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2f0666aaa3e6097cb616063a5a8d87b3, close {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50041/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 2f0666aaa3e6097cb616063a5a8d87b3\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:418)\r\n\tat org.helper.Helper.browserClose(Helper.java:43)\r\n\tat org.stepDefinition.HotelDefin.to_close_The_Browser(HotelDefin.java:220)\r\n\tat ✽.To close The Browser(src/test/resources/Feature/adactinHotel.feature:75)\r\n",
-              "duration": 38142400,
-              "status": "failed"
+              "duration": 517688400,
+              "status": "passed"
             },
             "line": 75,
             "name": "To close The Browser",
